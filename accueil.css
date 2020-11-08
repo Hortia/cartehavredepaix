@@ -170,3 +170,19 @@ align-items: center;
     font-size: 1.5rem;
     color: #26317B;
 }
+@media all and (max-width:700px)
+{
+    .header
+    {
+        max-width: auto;
+        max-height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image img
+    {
+        max-width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
