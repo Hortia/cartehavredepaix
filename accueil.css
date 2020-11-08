@@ -175,9 +175,10 @@ align-items: center;
     .header
     {
         max-width: auto;
-        max-height: 220px;
+        max-height: auto;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
     }
     .image img
     {
