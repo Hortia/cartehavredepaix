@@ -95,12 +95,22 @@ align-items: center;
     font-size: 2rem;
     color: #26317B;
 }
+.menu1 a
+{
+    text-decoration: none;
+    color: #26317B;
+}
+.menu1 a:hover
+{
+    color: #E94F33;
+}
 .cocktails
 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 .cocktails div
 {
@@ -111,6 +121,7 @@ align-items: center;
 .cocktails img
 {
     max-height: 4px;
+    max-width: auto;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
