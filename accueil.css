@@ -74,7 +74,7 @@ align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    max-width: 60%;
+    max-width: 50%;
     margin-bottom: 1rem;
 }
 .menu
@@ -170,19 +170,18 @@ align-items: center;
     font-size: 1.5rem;
     color: #26317B;
 }
-@media all and (max-width:700px)
+@media all and (max-width:800px)
 {
     .header
     {
-        max-width: auto;
-        max-height: auto;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
     }
     .image img
     {
-        max-width: auto;
+        max-width: 250px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -206,5 +205,6 @@ align-items: center;
         margin-right: auto;
         text-align: center;
     }
+
     
 }
