@@ -191,5 +191,20 @@ align-items: center;
         display: flex;
         flex-direction: column;
     }
+    .menu1 li
+    {
+        margin-bottom: 1rem;
+    }
+    .cocktails div
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .cocktails h1
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
     
 }
